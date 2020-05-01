@@ -10,8 +10,8 @@ from Measure import *
 
 file = 'All.npz'
 
-psuResource = 'TCPIP0::192.168.0.35::inst0::INSTR'
-dmmResource = 'TCPIP0::192.168.0.30::inst0::INSTR'
+psuResource = 'USB0::0x1AB1::0x0E11::DP8B152800364::INSTR'
+dmmResource = 'USB0::0x05E6::0x6500::04386016::INSTR'
 
 delayV       = 1.
 delayI       = 2.
